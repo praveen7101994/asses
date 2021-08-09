@@ -1,0 +1,31 @@
+.CreateTaskButton {
+    padding: 1em;
+    color: white;
+    background: #fa193f;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.CreateTaskFormContainer {
+    padding: 1em;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    height: 300px;
+    min-width: 200px;
+    position: absolute;
+    background-color: white;
+}
+
+input[type=text] {   
+    padding: 14px 20px;
+    width: 200px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 4px;
+    outline: none;
+  }
